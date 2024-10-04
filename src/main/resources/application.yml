@@ -5,7 +5,7 @@ spring:
       token: dev-root
       kv:
         enabled: true
-        backend: ...
+        backend: 000
         default-context: uosecret
   application:
     name: ExampleVaultInSpringBoot
