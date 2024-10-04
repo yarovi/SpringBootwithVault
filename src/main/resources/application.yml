@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    vault:
+      uri: http://127.0.0.1:8200
+      token: dev-root
+      kv:
+        enabled: true
+        backend: hvs.gUktpB05DaInWC3cVwM2PZqB
+        default-context: uosecret
+  application:
+    name: ExampleVaultInSpringBoot
+logging:
+  level:
+    org.springframework.cloud.vault: DEBUG
+    
